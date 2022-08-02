@@ -1,0 +1,21 @@
+package com.mstafford.zookeeperpartone;
+
+public class Mammal {
+	private int energyLevel;
+	
+	public Mammal() {
+		setEnergyLevel(100);
+	}
+
+	public int getEnergyLevel() {
+		return energyLevel;
+	}
+
+	public void setEnergyLevel(int energyLevel) {
+		this.energyLevel = energyLevel;
+	}
+	
+	public void displayEnergy() {
+		System.out.println("Energy level: " +  String.valueOf(this.getEnergyLevel()));
+	}
+}

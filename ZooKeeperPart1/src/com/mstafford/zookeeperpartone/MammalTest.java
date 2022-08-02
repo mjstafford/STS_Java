@@ -1,0 +1,25 @@
+package com.mstafford.zookeeperpartone;
+
+public class MammalTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Mammal testMammal = new Mammal();
+		Gorilla testGorilla = new Gorilla();
+		
+		testMammal.displayEnergy();
+		testGorilla.displayEnergy();
+		
+		testGorilla.throwThing();
+		testGorilla.throwThing();
+		testGorilla.throwThing();
+		
+		testGorilla.eatBanana();
+		testGorilla.eatBanana();
+		
+		testGorilla.climb();
+		
+		testGorilla.displayEnergy();
+	}
+
+}

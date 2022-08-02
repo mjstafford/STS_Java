@@ -1,0 +1,11 @@
+
+ class Gorilla extends Mammal{
+
+	public Gorilla() {}
+	
+	public void throwThing(){
+		int currEnergy = this.getEnergyLevel();
+		this.setEnergyLevel(currEnergy - 10);
+	}
+
+}
