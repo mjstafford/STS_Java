@@ -382,3 +382,48 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 14:03:54.517
 !MESSAGE executing callback sts4.classpath.hxEwuubb SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2022-08-02 15:04:59.395
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 15:12:26.797
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 15:12:26.798
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 15:12:26.799
+!MESSAGE buffering callback sts4.classpath.hxEwuubb ZooKeeperPart2 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 15:12:26.800
+!MESSAGE executing callback sts4.classpath.hxEwuubb 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 15:12:26.808
+!MESSAGE executing callback sts4.classpath.hxEwuubb SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-08-02 15:14:08.667
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 15:18:32.760
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 15:18:32.762
+!MESSAGE classpath=3 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 15:18:32.762
+!MESSAGE buffering callback sts4.classpath.hxEwuubb ZooKeeperPart2 false 3
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 15:18:32.763
+!MESSAGE executing callback sts4.classpath.hxEwuubb 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-02 15:18:32.769
+!MESSAGE executing callback sts4.classpath.hxEwuubb SUCCESS [done]
