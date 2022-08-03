@@ -4,7 +4,7 @@ import com.mstafford.zookeeperpartone.Mammal;
 
 public class Bat extends Mammal {
 	public Bat(){
-		setEnergyLevel(300);
+		this.setEnergyLevel(300);
 	}
 	
 	public void fly(){
