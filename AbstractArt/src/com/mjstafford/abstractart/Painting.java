@@ -10,9 +10,9 @@ public class Painting extends Art {
 
 	@Override
 	public void viewArt() {
-		String details = "Viewing Painting: " + this.title;
-		details += "\nAuthor: " + this.author;
-		details += "\nDescription: " + this.description;
+		String details = "Viewing Painting: " + this.getTitle();
+		details += "\nAuthor: " + this.getAuthor();
+		details += "\nDescription: " + this.getDescription();
 		details += "\nPaint Type: " + this.paintType;
 		System.out.println(details);
 	}

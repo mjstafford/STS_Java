@@ -10,9 +10,9 @@ public class Sculpture extends Art {
 
 	@Override
 	void viewArt() {
-		String details = "Viewing Scuplture: " + this.title;
-		details += "\nAuthor: " + this.author;
-		details += "\nDescription: " + this.description;
+		String details = "Viewing Scuplture: " + this.getTitle();
+		details += "\nAuthor: " + this.getAuthor();
+		details += "\nDescription: " + this.getDescription();
 		details += "\nMaterial: " + this.material;
 		System.out.println(details);
 	}
