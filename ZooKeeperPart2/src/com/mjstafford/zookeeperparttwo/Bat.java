@@ -9,19 +9,19 @@ public class Bat extends Mammal {
 	
 	public void fly(){
 		System.out.println("wooosh (bat flying)");
-		int currEnergy = this.getEnergyLevel();
-		this.setEnergyLevel(currEnergy - 50);
+		int currEnergy = super.getEnergyLevel();
+		super.setEnergyLevel(currEnergy - 50);
 	}
 
 	public void eatHuman(){
 		System.out.println("1 humans blood sucked, muah ha ha");
-		int currEnergy = this.getEnergyLevel();
-		this.setEnergyLevel(currEnergy + 25);
+		int currEnergy = super.getEnergyLevel();
+		super.setEnergyLevel(currEnergy + 25);
 	}
 	
 	public void attack(){
 		System.out.println("sssSSssspphphhhhh(bat attacking town)");
-		int currEnergy = this.getEnergyLevel();
-		this.setEnergyLevel(currEnergy - 100);
+		int currEnergy = super.getEnergyLevel();
+		super.setEnergyLevel(currEnergy - 100);
 	}
 }
