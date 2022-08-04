@@ -12,7 +12,7 @@ public class Deck {
 
         // Populate the cards list -- loop to 52
         for (String name : new String[] {"Hearts", "Clubs", "Diamonds", "Spades"}) {
-            for (Integer rank = 1; rank <= 13; rank++) {
+            for (Integer rank = 2; rank <= 14; rank++) {
                 this.cards.add(new Card(name, rank));
             }
         }

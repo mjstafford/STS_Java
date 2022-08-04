@@ -11,11 +11,11 @@ public class Game {
 		Scanner scanner = new Scanner(System.in);
 
 		while(true) {
-			System.out.println(myDeck.getSize());
+//			System.out.println(myDeck.getSize());
 			if(myDeck.getSize() < 2) {
 				myDeck = new Deck();
 				myDeck.ShuffleCards();
-				System.out.println("New Deck");
+				System.out.println("\n******************\nDealing a New Deck\n******************\n\n");
 			}
 			
 			System.out.println("Deal cards? (y/n)");
@@ -31,9 +31,9 @@ public class Game {
 				computerCard.showCard();
 				
 				if(playerCard.isLarger(computerCard)) {
-					System.out.println("You Win!");
+					System.out.println("You Win!\n");
 				} else {
-					System.out.println("Loser");
+					System.out.println("Loser\n");
 				}
 
 				
